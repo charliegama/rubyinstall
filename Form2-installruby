@@ -1,0 +1,41 @@
+¿Cómo instalar RVM en Ubuntu y derivados?
+Para aquellos que estén interesados en poder instalar esta aplicación en su sistema, deberán de seguir una serie de pasos para poder obtener esta excelente herramienta.
+
+Lo primero que deberemos de hacer es abrir una terminal en nuestro sistema con Ctrl + ALT + T y en ella vamos a ejecutar el siguiente comando:
+
+
+sudo apt-get install software-properties-common
+Hecho esto ahora nos vamos a apoyar con el siguiente comando para añadir el repositorio de la aplicación a nuestro sistema con:
+
+
+sudo apt-add-repository -y ppa:rael-gc/rvm
+Actualizamos nuestro listado de paquetes y aplicaciones con:
+
+
+sudo apt-get update
+Finalmente procedemos a instalar la aplicación con:
+
+
+sudo apt-get install rvm
+
+Hecha la instalación de RVM ahora es necesario realizar este paso para cargar siempre RVM. Debemos de realizar un cambio en la terminal que usemos para que siempre realice un inicio de sesión.
+
+sudo reboot. 
+
+
+
+Instalando Ruby en Ubuntu y derivados
+Ya contando con al ayuda de RVM en nuestro sistema podemos realizar la instalación de Ruby con ayuda de este, simplemente basa con ejecutar el siguiente comando:
+
+
+rvm install ruby
+Ahora, los escenarios básicos de uso de RVM incluyen la instalación y el cambio entre diferentes versiones de ruby.
+
+
+Ahora culminemos el proceso : 
+
+rvm install "ruby-2.6.6"
+
+
+thanks ! 
+
